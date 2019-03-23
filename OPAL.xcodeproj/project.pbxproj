@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8306B7224604360007A1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306B6224604360007A1D0 /* AppDelegate.swift */; };
+		2C8306B9224604360007A1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306B8224604360007A1D0 /* ViewController.swift */; };
+		2C8306BC224604360007A1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8306BA224604360007A1D0 /* Main.storyboard */; };
+		2C8306BE224604390007A1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C8306BD224604390007A1D0 /* Assets.xcassets */; };
+		2C8306C1224604390007A1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8306BF224604390007A1D0 /* LaunchScreen.storyboard */; };
+		2C8306CC2246043A0007A1D0 /* OPALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306CB2246043A0007A1D0 /* OPALTests.swift */; };
+		2C8306D72246043A0007A1D0 /* OPALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306D62246043A0007A1D0 /* OPALUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8306C82246043A0007A1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8306AB224604360007A1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8306B2224604360007A1D0;
+			remoteInfo = OPAL;
+		};
+		2C8306D32246043A0007A1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8306AB224604360007A1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8306B2224604360007A1D0;
+			remoteInfo = OPAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C8306B3224604360007A1D0 /* OPAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8306B6224604360007A1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C8306B8224604360007A1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C8306BB224604360007A1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C8306BD224604390007A1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C8306C0224604390007A1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C8306C2224604390007A1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8306C72246043A0007A1D0 /* OPALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPALTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8306CB2246043A0007A1D0 /* OPALTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPALTests.swift; sourceTree = "<group>"; };
+		2C8306CD2246043A0007A1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8306D22246043A0007A1D0 /* OPALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8306D62246043A0007A1D0 /* OPALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPALUITests.swift; sourceTree = "<group>"; };
+		2C8306D82246043A0007A1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C8306B0224604360007A1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306C42246043A0007A1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306CF2246043A0007A1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8306AA224604360007A1D0 = {
+			isa = PBXGroup;
+			children = (
+				2C8306B5224604360007A1D0 /* OPAL */,
+				2C8306CA2246043A0007A1D0 /* OPALTests */,
+				2C8306D52246043A0007A1D0 /* OPALUITests */,
+				2C8306B4224604360007A1D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8306B4224604360007A1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C8306B3224604360007A1D0 /* OPAL.app */,
+				2C8306C72246043A0007A1D0 /* OPALTests.xctest */,
+				2C8306D22246043A0007A1D0 /* OPALUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8306B5224604360007A1D0 /* OPAL */ = {
+			isa = PBXGroup;
+			children = (
+				2C8306B6224604360007A1D0 /* AppDelegate.swift */,
+				2C8306B8224604360007A1D0 /* ViewController.swift */,
+				2C8306BA224604360007A1D0 /* Main.storyboard */,
+				2C8306BD224604390007A1D0 /* Assets.xcassets */,
+				2C8306BF224604390007A1D0 /* LaunchScreen.storyboard */,
+				2C8306C2224604390007A1D0 /* Info.plist */,
+			);
+			path = OPAL;
+			sourceTree = "<group>";
+		};
+		2C8306CA2246043A0007A1D0 /* OPALTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8306CB2246043A0007A1D0 /* OPALTests.swift */,
+				2C8306CD2246043A0007A1D0 /* Info.plist */,
+			);
+			path = OPALTests;
+			sourceTree = "<group>";
+		};
+		2C8306D52246043A0007A1D0 /* OPALUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8306D62246043A0007A1D0 /* OPALUITests.swift */,
+				2C8306D82246043A0007A1D0 /* Info.plist */,
+			);
+			path = OPALUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C8306B2224604360007A1D0 /* OPAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8306DB2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPAL" */;
+			buildPhases = (
+				2C8306AF224604360007A1D0 /* Sources */,
+				2C8306B0224604360007A1D0 /* Frameworks */,
+				2C8306B1224604360007A1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPAL;
+			productName = OPAL;
+			productReference = 2C8306B3224604360007A1D0 /* OPAL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8306C62246043A0007A1D0 /* OPALTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8306DE2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALTests" */;
+			buildPhases = (
+				2C8306C32246043A0007A1D0 /* Sources */,
+				2C8306C42246043A0007A1D0 /* Frameworks */,
+				2C8306C52246043A0007A1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8306C92246043A0007A1D0 /* PBXTargetDependency */,
+			);
+			name = OPALTests;
+			productName = OPALTests;
+			productReference = 2C8306C72246043A0007A1D0 /* OPALTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C8306D12246043A0007A1D0 /* OPALUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8306E12246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALUITests" */;
+			buildPhases = (
+				2C8306CE2246043A0007A1D0 /* Sources */,
+				2C8306CF2246043A0007A1D0 /* Frameworks */,
+				2C8306D02246043A0007A1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8306D42246043A0007A1D0 /* PBXTargetDependency */,
+			);
+			name = OPALUITests;
+			productName = OPALUITests;
+			productReference = 2C8306D22246043A0007A1D0 /* OPALUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8306AB224604360007A1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Eddie Rodriguez";
+				TargetAttributes = {
+					2C8306B2224604360007A1D0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2C8306C62246043A0007A1D0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C8306B2224604360007A1D0;
+					};
+					2C8306D12246043A0007A1D0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2C8306B2224604360007A1D0;
+					};
+				};
+			};
+			buildConfigurationList = 2C8306AE224604360007A1D0 /* Build configuration list for PBXProject "OPAL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C8306AA224604360007A1D0;
+			productRefGroup = 2C8306B4224604360007A1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C8306B2224604360007A1D0 /* OPAL */,
+				2C8306C62246043A0007A1D0 /* OPALTests */,
+				2C8306D12246043A0007A1D0 /* OPALUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C8306B1224604360007A1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8306C1224604390007A1D0 /* LaunchScreen.storyboard in Resources */,
+				2C8306BE224604390007A1D0 /* Assets.xcassets in Resources */,
+				2C8306BC224604360007A1D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306C52246043A0007A1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306D02246043A0007A1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C8306AF224604360007A1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8306B9224604360007A1D0 /* ViewController.swift in Sources */,
+				2C8306B7224604360007A1D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306C32246043A0007A1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8306CC2246043A0007A1D0 /* OPALTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8306CE2246043A0007A1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8306D72246043A0007A1D0 /* OPALUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8306C92246043A0007A1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8306B2224604360007A1D0 /* OPAL */;
+			targetProxy = 2C8306C82246043A0007A1D0 /* PBXContainerItemProxy */;
+		};
+		2C8306D42246043A0007A1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8306B2224604360007A1D0 /* OPAL */;
+			targetProxy = 2C8306D32246043A0007A1D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C8306BA224604360007A1D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8306BB224604360007A1D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8306BF224604390007A1D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8306C0224604390007A1D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C8306D92246043A0007A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C8306DA2246043A0007A1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C8306DC2246043A0007A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8306DD2246043A0007A1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPAL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPAL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C8306DF2246043A0007A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OPAL.app/OPAL";
+			};
+			name = Debug;
+		};
+		2C8306E02246043A0007A1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPALTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPALTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OPAL.app/OPAL";
+			};
+			name = Release;
+		};
+		2C8306E22246043A0007A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OPAL;
+			};
+			name = Debug;
+		};
+		2C8306E32246043A0007A1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGA453CYUK;
+				INFOPLIST_FILE = OPALUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reddie.OPALUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OPAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8306AE224604360007A1D0 /* Build configuration list for PBXProject "OPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8306D92246043A0007A1D0 /* Debug */,
+				2C8306DA2246043A0007A1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8306DB2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8306DC2246043A0007A1D0 /* Debug */,
+				2C8306DD2246043A0007A1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8306DE2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8306DF2246043A0007A1D0 /* Debug */,
+				2C8306E02246043A0007A1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8306E12246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8306E22246043A0007A1D0 /* Debug */,
+				2C8306E32246043A0007A1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C8306AB224604360007A1D0 /* Project object */;
+}
