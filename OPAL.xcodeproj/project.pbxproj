@@ -14,6 +14,9 @@
 		2C8306C1224604390007A1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8306BF224604390007A1D0 /* LaunchScreen.storyboard */; };
 		2C8306CC2246043A0007A1D0 /* OPALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306CB2246043A0007A1D0 /* OPALTests.swift */; };
 		2C8306D72246043A0007A1D0 /* OPALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8306D62246043A0007A1D0 /* OPALUITests.swift */; };
+		7CA9AB8ED2B6068D0B0A3326 /* Pods_OPALTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB36A040889DC585ADE44DD /* Pods_OPALTests.framework */; };
+		8AF7852A0305B5BB15C7493A /* Pods_OPAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCF6C9DDE04BC3DEF23BFA8 /* Pods_OPAL.framework */; };
+		9E684D9A5AE1C38B846D968B /* Pods_OPALUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DAC14DAD41CA70E0A4FCBE /* Pods_OPALUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10829B22FE93F967D6800890 /* Pods-OPALUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPALUITests.debug.xcconfig"; path = "Target Support Files/Pods-OPALUITests/Pods-OPALUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C8306B3224604360007A1D0 /* OPAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8306B6224604360007A1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8306B8224604360007A1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		2C8306D22246043A0007A1D0 /* OPALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPALUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8306D62246043A0007A1D0 /* OPALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPALUITests.swift; sourceTree = "<group>"; };
 		2C8306D82246043A0007A1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DAC14DAD41CA70E0A4FCBE /* Pods_OPALUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPALUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42C9A60844A0C6D7DF0745C /* Pods-OPAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAL.debug.xcconfig"; path = "Target Support Files/Pods-OPAL/Pods-OPAL.debug.xcconfig"; sourceTree = "<group>"; };
+		A78A969C2FABBA008D2CD1BC /* Pods-OPALTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPALTests.release.xcconfig"; path = "Target Support Files/Pods-OPALTests/Pods-OPALTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFCF6C9DDE04BC3DEF23BFA8 /* Pods_OPAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA30E93AF75CC35FB03FF17 /* Pods-OPALUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPALUITests.release.xcconfig"; path = "Target Support Files/Pods-OPALUITests/Pods-OPALUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD3CD64691321F11137CA21D /* Pods-OPALTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPALTests.debug.xcconfig"; path = "Target Support Files/Pods-OPALTests/Pods-OPALTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE2389B2527408198792D990 /* Pods-OPAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPAL.release.xcconfig"; path = "Target Support Files/Pods-OPAL/Pods-OPAL.release.xcconfig"; sourceTree = "<group>"; };
+		FCB36A040889DC585ADE44DD /* Pods_OPALTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPALTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF7852A0305B5BB15C7493A /* Pods_OPAL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA9AB8ED2B6068D0B0A3326 /* Pods_OPALTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E684D9A5AE1C38B846D968B /* Pods_OPALUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				2C8306CA2246043A0007A1D0 /* OPALTests */,
 				2C8306D52246043A0007A1D0 /* OPALUITests */,
 				2C8306B4224604360007A1D0 /* Products */,
+				4F85B57823A602D924E58F5E /* Pods */,
+				6BD936710C666E0937BED3F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = OPALUITests;
 			sourceTree = "<group>";
 		};
+		4F85B57823A602D924E58F5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42C9A60844A0C6D7DF0745C /* Pods-OPAL.debug.xcconfig */,
+				EE2389B2527408198792D990 /* Pods-OPAL.release.xcconfig */,
+				BD3CD64691321F11137CA21D /* Pods-OPALTests.debug.xcconfig */,
+				A78A969C2FABBA008D2CD1BC /* Pods-OPALTests.release.xcconfig */,
+				10829B22FE93F967D6800890 /* Pods-OPALUITests.debug.xcconfig */,
+				BCA30E93AF75CC35FB03FF17 /* Pods-OPALUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BD936710C666E0937BED3F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCF6C9DDE04BC3DEF23BFA8 /* Pods_OPAL.framework */,
+				FCB36A040889DC585ADE44DD /* Pods_OPALTests.framework */,
+				54DAC14DAD41CA70E0A4FCBE /* Pods_OPALUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8306DB2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPAL" */;
 			buildPhases = (
+				4AFE64603C78F44EA67E837A /* [CP] Check Pods Manifest.lock */,
 				2C8306AF224604360007A1D0 /* Sources */,
 				2C8306B0224604360007A1D0 /* Frameworks */,
 				2C8306B1224604360007A1D0 /* Resources */,
+				555D8CDF0400C6ED048033C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8306DE2246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALTests" */;
 			buildPhases = (
+				708F350D15EAD02F371B943F /* [CP] Check Pods Manifest.lock */,
 				2C8306C32246043A0007A1D0 /* Sources */,
 				2C8306C42246043A0007A1D0 /* Frameworks */,
 				2C8306C52246043A0007A1D0 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8306E12246043A0007A1D0 /* Build configuration list for PBXNativeTarget "OPALUITests" */;
 			buildPhases = (
+				525449215D0422FC48BAAF3B /* [CP] Check Pods Manifest.lock */,
 				2C8306CE2246043A0007A1D0 /* Sources */,
 				2C8306CF2246043A0007A1D0 /* Frameworks */,
 				2C8306D02246043A0007A1D0 /* Resources */,
@@ -250,6 +295,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AFE64603C78F44EA67E837A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OPAL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		525449215D0422FC48BAAF3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OPALUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		555D8CDF0400C6ED048033C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OPAL/Pods-OPAL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OPAL/Pods-OPAL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708F350D15EAD02F371B943F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OPALTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C8306AF224604360007A1D0 /* Sources */ = {
@@ -430,6 +578,7 @@
 		};
 		2C8306DC2246043A0007A1D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42C9A60844A0C6D7DF0745C /* Pods-OPAL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +597,7 @@
 		};
 		2C8306DD2246043A0007A1D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE2389B2527408198792D990 /* Pods-OPAL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +616,7 @@
 		};
 		2C8306DF2246043A0007A1D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3CD64691321F11137CA21D /* Pods-OPALTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +638,7 @@
 		};
 		2C8306E02246043A0007A1D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78A969C2FABBA008D2CD1BC /* Pods-OPALTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +660,7 @@
 		};
 		2C8306E22246043A0007A1D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10829B22FE93F967D6800890 /* Pods-OPALUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +681,7 @@
 		};
 		2C8306E32246043A0007A1D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA30E93AF75CC35FB03FF17 /* Pods-OPALUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
