@@ -1,0 +1,6 @@
+framework module Pods_OPAL {
+  umbrella header "Pods-OPAL-umbrella.h"
+
+  export *
+  module * { export * }
+}
