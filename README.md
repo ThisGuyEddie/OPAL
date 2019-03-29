@@ -1,5 +1,5 @@
 # OPAL
-This is the github repository for OPAL. It is for submitting the demo product for CodePath (SJSU). Created by Kevin Pham and Eddie Rodriguez.
+This is the Github repository for OPAL, a demo product for our CodePath Project. Created by Kevin Pham and Eddie Rodriguez.
 
 Group Project - README Template
 ===
@@ -32,12 +32,18 @@ Video app for questions and answers among various topics within the community wh
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* ...
+* Login
+* View Topics
+* Video stream
+* Post Videos
+* Pause Recording on lift off of button
 
 **Optional Nice-to-have Stories**
-
-* [fill in your required user stories here]
-* ...
+* Auto-play next video in topic/replies
+* Share to Twitter, LinkedIn, FB
+* Audio-only version (a la podcasts)
+* Drafts
+* Reply With video
 
 ### 2. Screen Archetypes
 
@@ -70,6 +76,9 @@ Video app for questions and answers among various topics within the community wh
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://imgur.com/q9dGX1k" width=600>
+<img src="https://imgur.com/2cNKftE" width=600>
+
 
 ### [BONUS] Interactive Prototype
 
